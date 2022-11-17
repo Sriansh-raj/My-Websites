@@ -1,0 +1,55 @@
+.totalnav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 60px;
+}
+
+.navbar {
+    padding-top: 2px;
+    /* background-color: aquamarine; */
+    padding-right: 170px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a:hover {
+    color: lightseagreen;
+}
+
+.navbar ul {
+    overflow: auto;
+    /* remove this .navbar after removing bg color aquamarine*/
+    /* it is makink the scroll arrow. before increasing margin in nav li */
+}
+
+.navbar li {
+    margin: 17px 11px;
+    float: right;
+    list-style: none;
+}
+
+.navbar a {
+    padding: 17px 27px;
+    text-decoration: none;
+    color: black;
+}
+
+.img1 {
+    position: static;
+}
+
+.bnr1-text {
+    position: absolute;
+    left: 60px;
+    top: 120px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* -webkit-transform:scale(1.5,0.5); */
+    color: black;
+    padding: 10px;
+}

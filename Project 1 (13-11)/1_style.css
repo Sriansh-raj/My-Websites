@@ -1,0 +1,223 @@
+* {
+    /* margin: 0px; */
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    background-color: #181e25;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.lists {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 120px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid green;
+    width: 80%;
+    height: 50%;
+}
+
+#course-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.course-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: #4094ec;
+    margin: 10px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.btnn1 {
+    background-color: rgb(113, 113, 113);
+    text-decoration: none;
+}
+
+.btnn1:hover {
+    color:midnightblue;
+}
+
+.btnn2 {
+    background-color: rgb(22, 49, 121);
+    text-decoration: none;
+}
+
+.btnn2:hover {
+    color: dimgrey;
+}
+
+.btnn1,
+.btnn2 {
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.container1 {
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.podcast {
+    text-decoration: none;
+    color: white;
+    background-color: #4094ec;
+    padding: 8px 12px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.heading1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.para1 {
+    width: 650px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+
+.btn1 {
+    background-color: #4094ec;
+    border: none;
+}
+
+.btn2 {
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.symbols {
+    font-size: 20px;
+}
+
+.btn-link1 {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-link2 {
+    text-decoration: none;
+    color: black;
+}
+
+.container2 {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.content-list {
+    font-size: 16px;
+    color: grey;
+    width: 500px;
+}
+
+.discord-btn {
+    border: none;
+    background-color: #4094ec;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+
+.Discord {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+hr {
+    width: 80%;
+    height: 2.5px;
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.contact-links {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}

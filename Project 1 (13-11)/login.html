@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="nav-bar">
+        <div>
+            <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="" height="50px">
+        </div>
+        <div class="lists">
+            <a class="links" href="1_project.html#home">Home</a>
+            <a class="links" href="1_project.html#about">About Us</a>
+            <a class="links" href="#foots">Contact Us</a>
+        </div>
+        <div class="btnn">
+            <a class="btnn2" href="register.html">Register</a>
+        </div>
+    </div>
+
+    <!-- Login -->
+    <div class="login">
+        <div class="login-box">
+            <h1>LOGIN</h1><br>
+            <form id="myform">
+                <div class="user-box">
+                    <label for="name">Username:</label><br>
+                    <input type="text" name="name" class="form-input" placeholder="Enter your Username" required>
+                    <div class="error" id="usernameErr"></div>
+                </div><br>
+                <div class="user-box">
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password" class="form-input" placeholder="Enter your Password" required>
+                    <div class="error" id="passwordErr"></div>
+                </div>
+                <div><br>
+                    <button class="btn3" onclick="validateForm()">Submit</button>
+                    <button class="btn3" onclick="clrForm()">Clear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <hr>
+    <div class="footer" id="foots">
+        <div><img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="" height="100px"></div>
+        <div class="contact-links">
+            <div>
+                <h2>Sitemap</h2>
+                <h3>Home</h3>
+                <h3>About</h3>
+                <h3>Schemes</h3>
+            </div>
+            <div>
+                <h2>Contact Us</h2>
+                <h3>Instagram</h3>
+                <h3>Facebook</h3>
+                <h3>Linkedin</h3>
+                <h3>Twitter</h3>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
